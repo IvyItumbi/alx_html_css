@@ -277,10 +277,6 @@ main > section:nth-of-type(2) p {
     }
 }
 
-/* =================================================== */
-/*  TUTORIALS SECTION – FINAL FIX: ALL TEXT VISIBLE   */
-/*  Black titles, dark gray descriptions, purple accents */
-/* =================================================== */
 
 main > section:nth-of-type(3) {
     max-width: 1240px;
@@ -288,10 +284,10 @@ main > section:nth-of-type(3) {
     padding: 80px 40px;
     background-color: #F6F6F6;
     text-align: center;
-    color: #000000 !important;        /* Force black text globally */
+    color: #000000 !important;        
 }
 
-/* Section title – Pure black */
+
 main > section:nth-of-type(3) > h2 {
     font-size: 36px;
     font-weight: 700;
@@ -299,14 +295,14 @@ main > section:nth-of-type(3) > h2 {
     margin-bottom: 70px;
 }
 
-/* Grid */
+
 main > section:nth-of-type(3) > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 60px 40px;
 }
 
-/* Card */
+
 main > section:nth-of-type(3) > div > div {
     background: #FFFFFF;
     border-radius: 16px;
@@ -320,7 +316,7 @@ main > section:nth-of-type(3) > div > div:hover {
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
-/* Thumbnails + Purple Play Button */
+
 main > section:nth-of-type(3) img[src*="Bitmap"] {
     width: 100%;
     height: 240px;
@@ -345,7 +341,7 @@ main > section:nth-of-type(3) img[src*="Bitmap"]::before {
     z-index: 2;
 }
 
-/* TUTORIAL TITLE – BLACK */
+
 main > section:nth-of-type(3) h3 {
     font-size: 22px !important;
     font-weight: 700 !important;
@@ -354,7 +350,7 @@ main > section:nth-of-type(3) h3 {
     text-align: left !important;
 }
 
-/* DESCRIPTION – DARK GRAY */
+
 main > section:nth-of-type(3) > div > div > p:not(:last-of-type) {
     font-size: 16px !important;
     color: #333333 !important;
@@ -363,14 +359,14 @@ main > section:nth-of-type(3) > div > div > p:not(:last-of-type) {
     line-height: 1.5 !important;
 }
 
-/* INSTRUCTOR NAME – BLACK */
+
 main > section:nth-of-type(3) h4 {
     font-size: 17px !important;
     font-weight: 600 !important;
     color: #000000 !important;
 }
 
-/* Instructor row */
+
 main > section:nth-of-type(3) > div > div > div:first-of-type {
     display: flex;
     align-items: center;
@@ -386,7 +382,7 @@ main > section:nth-of-type(3) img[src*="1 (3).png"] {
     border: 3px solid #C271FF;
 }
 
-/* Purple stars */
+
 main > section:nth-of-type(3) i.fa-star {
     color: #C271FF !important;
     font-size: 16px;
@@ -398,7 +394,7 @@ main > section:nth-of-type(3) > div > div > div:nth-of-type(2) {
     margin: 0 30px 16px;
 }
 
-/* Duration – Purple */
+
 main > section:nth-of-type(3) > div > div > p:last-of-type {
     font-size: 15px !important;
     font-weight: 600 !important;
@@ -407,26 +403,21 @@ main > section:nth-of-type(3) > div > div > p:last-of-type {
     margin: 0 30px 24px 0 !important;
 }
 
-/* Responsive */
+
 @media (max-width: 992px) {
     main > section:nth-of-type(3) > div {
         grid-template-columns: 1fr;
     }
 }
 
-/* =================================================== */
-/*  FREE MEMBERSHIP SECTION – EXACT MATCH (2025)       */
-/*  Dark background, purple smileys, perfect layout    */
-/* =================================================== */
-
 main > section:nth-of-type(4) {
-    background: #0F0F2B;                   /* Deep navy background */
+    background: #0F0F2B;                   
     padding: 100px 40px;
     text-align: center;
     color: white;
 }
 
-/* Section title – Purple glow */
+
 main > section:nth-of-type(4) > h2 {
     font-size: 40px;
     font-weight: 700;
@@ -435,7 +426,7 @@ main > section:nth-of-type(4) > h2 {
     letter-spacing: 1px;
 }
 
-/* 4 benefit cards in a row */
+
 main > section:nth-of-type(4) > div {
     display: flex;
     justify-content: center;
@@ -445,23 +436,22 @@ main > section:nth-of-type(4) > div {
     margin: 0 auto 100px;
 }
 
-/* Each benefit item */
+
 main > section:nth-of-type(4) > div > div {
     flex: 1;
     min-width: 220px;
     max-width: 280px;
 }
 
-/* Purple smiley icon (using your smile.svg) */
+
 main > section:nth-of-type(4) img[src*="smile.svg"] {
     width: 100px;
     height: 100px;
     filter: brightness(0) saturate(100%) invert(52%) sepia(85%) saturate(7471%) hue-rotate(266deg) brightness(103%) contrast(103%);
-    /* This turns your SVG purple #C271FF */
     margin-bottom: 30px;
 }
 
-/* Benefit title */
+
 main > section:nth-of-type(4) h3 {
     font-size: 24px;
     font-weight: 700;
@@ -469,7 +459,7 @@ main > section:nth-of-type(4) h3 {
     margin-bottom: 16px;
 }
 
-/* Benefit description */
+
 main > section:nth-of-type(4) p {
     font-size: 16px;
     color: #BDBDBD;
@@ -477,7 +467,7 @@ main > section:nth-of-type(4) p {
     margin: 0;
 }
 
-/* Purple "REGISTER FOR FREE" button – centered */
+
 main > section:nth-of-type(4) > button {
     background: #C271FF;
     color: white;
@@ -498,7 +488,7 @@ main > section:nth-of-type(4) > button:hover {
     box-shadow: 0 15px 40px rgba(194, 113, 255, 0.5);
 }
 
-/* Responsive – stack on mobile */
+
 @media (max-width: 992px) {
     main > section:nth-of-type(4) > div {
         gap: 60px;
@@ -520,11 +510,6 @@ main > section:nth-of-type(4) > button:hover {
     }
 }
 
-/* =================================================== */
-/*  F.A.Q SECTION – OFFICIAL SMILESCHOOL DESIGN       */
-/*  Clean, modern, 2-column layout, black text         */
-/* =================================================== */
-
 main > section:nth-of-type(5) {
     max-width: 1240px;
     margin: 140px auto 0;
@@ -541,7 +526,7 @@ main > section:nth-of-type(5) > h2 {
     letter-spacing: -1px;
 }
 
-/* 2-column grid for FAQ items */
+
 main > section:nth-of-type(5) > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -550,12 +535,12 @@ main > section:nth-of-type(5) > div {
     margin: 0 auto;
 }
 
-/* Each FAQ column */
+
 main > section:nth-of-type(5) > div > div {
     text-align: left;
 }
 
-/* FAQ question */
+
 main > section:nth-of-type(5) h3 {
     font-size: 24px;
     font-weight: 700;
@@ -564,7 +549,7 @@ main > section:nth-of-type(5) h3 {
     line-height: 1.3;
 }
 
-/* FAQ answer */
+
 main > section:nth-of-type(5) > div > div > div:last-child {
     font-size: 17px;
     color: #4F4F4F;
@@ -572,7 +557,7 @@ main > section:nth-of-type(5) > div > div > div:last-child {
     margin-bottom: 40px;
 }
 
-/* Responsive – stack to 1 column on tablet/mobile */
+
 @media (max-width: 992px) {
     main > section:nth-of-type(5) > div {
         grid-template-columns: 1fr;
@@ -600,13 +585,9 @@ main > section:nth-of-type(5) > div > div > div:last-child {
     }
 }
 
-/* =================================================== */
-/*  FOOTER – EXACT SMILESCHOOL DESIGN (2025)           */
-/*  Dark navy, white logo + social icons, centered     */
-/* =================================================== */
 
 footer {
-    background-color: #0F0F2B;          /* Same deep navy as Free Membership */
+    background-color: #0F0F2B;          
     padding: 80px 40px;
     margin-top: 140px;
 }
@@ -620,7 +601,7 @@ footer section {
     gap: 40px;
 }
 
-/* Logo + Social Icons Row */
+
 footer > section > div:first-child {
     display: flex;
     justify-content: space-between;
@@ -629,14 +610,14 @@ footer > section > div:first-child {
     max-width: 1100px;
 }
 
-/* SmileSchool logo (white smiley + text) */
+
 footer img {
     width: 180px;
     height: auto;
-    filter: brightness(0) invert(1);   /* Forces it to be pure white */
+    filter: brightness(0) invert(1);  
 }
 
-/* Social icons – white circles */
+
 footer .fa-facebook,
 footer .fa-twitter,
 footer .fa-instagram {
@@ -660,13 +641,13 @@ footer .fa-instagram:hover {
     transform: scale(1.1);
 }
 
-/* Social icons container */
+
 footer > section > div:first-child > div {
     display: flex;
     gap: 20px;
 }
 
-/* Copyright text */
+
 footer p {
     color: #6C757D;
     font-size: 14px;
@@ -674,7 +655,7 @@ footer p {
     margin: 0;
 }
 
-/* Mobile – stack vertically */
+
 @media (max-width: 768px) {
     footer > section > div:first-child {
         flex-direction: column;
