@@ -211,3 +211,23 @@ For this project, you must submit:
 
 ## Author
 IvyItumbi - Created for the HTML/CSS Advanced tasks. Ready to be used as the foundation for styling in the next project.
+footer {
+    background-color: #071629;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
