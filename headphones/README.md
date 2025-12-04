@@ -63,16 +63,16 @@ Final version: **`8-index.html`**, **`8-styles.css`**, **`8-script.js`**
 
 
 ### File Structure
-headphones/
-├── index.html          → Final version (8-index.html)
-├── styles.css          → Final stylesheet (8-styles.css)
-├── script.js           → Hamburger menu logic (8-script.js)
-├── images/             → All background & asset images
-├── fonts/              → Holberton School icons + custom fonts
-├── 0-index.html        → Task 1
-├── 1-index.html        → Task 2
-├── ...
-└── README.md           → This file
+- headphones/
+- ├── index.html          → Final version (8-index.html)
+- ├── styles.css          → Final stylesheet (8-styles.css)
+- ├── script.js           → Hamburger menu logic (8-script.js)
+- ├── images/             → All background & asset images
+- ├── fonts/              → Holberton School icons + custom fonts
+- ├── 0-index.html        → Task 1
+- ├── 1-index.html        → Task 2
+- ├── ...
+- └── README.md           → This file
 
 ### How to Run
 
