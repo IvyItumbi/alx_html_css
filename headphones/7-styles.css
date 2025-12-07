@@ -1,0 +1,2 @@
+.card:hover { transform:scale(1.1); transition:0.3s; }
+.pentagon:hover { transform:rotate(10deg); }

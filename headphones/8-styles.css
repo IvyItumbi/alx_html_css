@@ -1,0 +1,6 @@
+.hamburger{display:none;}
+@media(max-width:480px){
+ .hamburger{display:block;}
+ .mobile-menu{display:none;}
+}
+.show{display:block;}
